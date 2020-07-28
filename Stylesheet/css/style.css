@@ -1,0 +1,69 @@
+header{
+    background-color: rgb(243, 241, 225);
+    box-shadow: 1px 2px 10px 0px #becad1;
+}
+
+header .fa{
+    font-size: 20px;
+}
+
+.action{
+    display: block;
+    margin-bottom: 1px;
+}
+
+.titre{
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.welcom{
+    color: rgb(29, 149, 165);
+    font-family: algerian;
+}
+
+.cadre{
+    box-shadow: 1px 2px 10px 0px #becad1;
+    background-color: white;
+    margin-bottom: 20px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.cadre .fa{
+    font-size: 50px;
+
+}
+
+.cadre div{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.champ{
+    border: 0;
+    border-bottom: 2px Solid #c9eff0;
+}
+
+.form{
+   box-shadow: 1px 1px 10px 0px gray;
+   background-color: white;
+}
+
+body{
+    background-color: rgb(232, 246, 245);
+ }
+
+input:hover{
+    border: 2px Solid #c9eff0;
+}
+.agent-card{
+    box-shadow: 1px 1px 10px 1px gray;
+    background-color: white;
+}
+
+.agent-card ul li{
+    list-style-type: none;
+    border-bottom: 1px solid black;
+}
