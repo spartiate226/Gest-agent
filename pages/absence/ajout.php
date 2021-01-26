@@ -13,7 +13,16 @@
         <h3>Nouvelle Absence</h3>
         <form class=" form p-5 d-flex flex-column w-50" action="../../traitements/ajouter.php?enite=Absence" method="POST">
             <label for="">Agent</label>
-            <input class="champ" type="text"  name="mat_agent" required> <br>
+            <select class="champ" type="text"  name="mat_agent" required>
+                <?php
+                 $agents=$class->Agent->all();
+                 foreach ($agents as $agent) {
+                ?>
+                <option value="<?php echo $agent->id ?>"><?php echo $agent->nom." ".$agent->prenom?></option>
+                <?php
+                 }
+                ?>
+            </select><br>
             <label for="">Debut</label>
             <input class="champ" type="date" name="d_debut" required> <br>
             <label for="">Fin</label>
